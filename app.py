@@ -6,8 +6,8 @@ import os
 import tensorflow as tf
 
 # URL model dari Hugging Face
-MODEL_URL = "https://huggingface.co/zakialfadilah/model_vgg/resolve/main/model_vgg16.tflite"
-MODEL_PATH = "model_vgg16.tflite"
+MODEL_URL = "https://huggingface.co/zakialfadilah/resnet_lite/resolve/main/model_resnet50.tflite"
+MODEL_PATH = "model_resnet50.tflite"
 
 # Daftar kelas (label)
 CLASS_NAMES = [
