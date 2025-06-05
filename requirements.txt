@@ -1,7 +1,5 @@
-io
-numpy
-os
-PIL
-requests
-streamlit
-tensorflow
+streamlit>=1.25.0
+tensorflow==2.11.0
+numpy>=1.23.0
+Pillow>=9.3.0
+requests>=2.28.0
