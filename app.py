@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 # URL model dari Hugging Face Hub
 # MODEL_URL = "https://huggingface.co/zakialfadilah/best_model_resnet50/resolve/main/best_model_resnet50.keras"
-MODEL_URL = https://huggingface.co/zakialfadilah/model_vgg/blob/main/model_vgg16.tflite
+MODEL_URL = https://huggingface.co/zakialfadilah/model_vgg/resolve/main/model_vgg16.tflite
 MODEL_PATH = "model_vgg16.tflite"
 # MODEL_PATH = "best_model_resnet50.keras"
 
