@@ -255,7 +255,7 @@ with col1:
     
     if uploaded_file:
         image = Image.open(uploaded_file).convert("RGB")
-        st.image(image, caption="📷 Uploaded Image", use_column_width=True)
+        st.image(image, caption="📷 Uploaded Image", use_container_width=True)
 
 with col2:
     if uploaded_file:
@@ -299,7 +299,6 @@ if uploaded_file and 'predicted_label' in locals():
                 <div class="info-card">
                     <h3>📚 Historical Background</h3>
                     {EXTRA_INFO[predicted_label]["history"]}
-                </div>
                 """, 
                 unsafe_allow_html=True
             )
@@ -310,7 +309,6 @@ if uploaded_file and 'predicted_label' in locals():
                 <div class="ingredients-card">
                     <h3>🍳 Recipe Ingredients</h3>
                     {EXTRA_INFO[predicted_label]["ingredients"]}
-                </div>
                 """, 
                 unsafe_allow_html=True
             )
