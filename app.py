@@ -113,24 +113,25 @@ CLASS_NAMES = [
     "ongol_ongol", "putu_mayang", "selendang_mayang", "uli_bakar"
 ]
 
-# Informasi tambahan untuk beberapa kelas
+# Additional information for snack classes
 EXTRA_INFO = {
     "kembang_goyang": {
         "history": """
 **Kembang Goyang - Historical Insight**  
-Kembang Goyang, a beloved traditional snack from Betawi, has roots reaching beyond Indonesian shores. Often compared to Norway's krumkake—a Viking-era dessert—this flower-shaped rice flour snack is fried with a shaking motion (hence the name "goyang").  
-It is believed to have been introduced via Portuguese influence in the 19th century and gradually adapted by locals. Now a staple in Betawi celebrations, Kembang Goyang reflects cultural fusion and historical journeys through culinary evolution.
+Kembang Goyang, known as a traditional Betawi snack, has fascinating origins beyond Indonesian shores. This flower-shaped rice flour snack, fried with a shaking motion (hence "goyang"), shares similarities with Norway's krumkake—a Viking-era dessert. 
+
+The snack is believed to have been introduced through Portuguese influence in the 19th century and was gradually adapted by locals. It has now become a staple in Betawi celebrations, reflecting cultural fusion and historical culinary journeys. Today, people enjoy Kembang Goyang in various flavor variations, making it a popular snack for different occasions.
 """,
         "ingredients": """
 **Ingredients:**  
-**Dry Mix (A):**
+**Mix A (Dry):**
 - 170g all-purpose flour  
 - 100g tapioca flour  
 - 50g rice flour  
 
-**Wet Mix (B):**
-- 120g sugar  
-- 65ml instant coconut milk  
+**Mix B (Wet):**
+- 120g granulated sugar  
+- 65ml instant coconut milk (1 pack)  
 - 2 eggs  
 - 1/2 tsp salt  
 - A dash of vanilla  
@@ -139,18 +140,184 @@ It is believed to have been introduced via Portuguese influence in the 19th cent
     "kerak_telor": {
         "history": """
 **Kerak Telor - Historical Insight**  
-Originating in the 1920s from the Betawi community in Menteng, Jakarta, Kerak Telor was originally a luxurious dish enjoyed by the upper class during the Dutch colonial period.  
-As time passed, it became accessible to all. By the 1970s, it was being sold around Monas and promoted by Jakarta's governor Ali Sadikin.  
-Symbolically, the egg represents leadership, while the spices signify the diversity of society—showing how leaders unify differences into one flavor.
+Created in the 1920s, Kerak Telor originated from the Betawi community in Menteng, Central Jakarta. During the Dutch colonial period, this dish was considered expensive and could only be enjoyed by the upper class.
+
+Over time, it became accessible to all social classes. In the 1970s, it began being sold around the National Monument (Monas) and was promoted by Jakarta's governor Ali Sadikin. The dish carries philosophical meaning: the egg represents leadership, while the various spices symbolize individual differences in society—showing how leaders can unite diversity into one harmonious flavor.
 """,
         "ingredients": """
 **Ingredients:**  
-- 2–3 tbsp cooked rice  
+- 2-3 tbsp cooked rice  
 - 1 egg  
-- A pinch of salt, pepper, and seasoning  
-- Ebi (dried shrimp floss) to taste  
+- Pinch of salt, pepper, and seasoning  
+- Ebi (dried shrimp) to taste  
 - Fried shallots  
-- 1 tbsp spiced coconut (serundeng)  
+- 1 tbsp serundeng (spiced coconut)  
+"""
+    },
+    "kue_cente": {
+        "history": """
+**Kue Cente - Historical Insight**  
+Based on its name, this cake is believed to originate from China. In Chinese, "cente" means beautiful, while "manis" means sweet. One version suggests that Kue Cente Manis was brought by Chinese traders who came to the archipelago and was then adapted by the Betawi community.
+
+Another version states that Kue Cente Manis is originally from Betawi, made with ingredients easily found in the region such as hunkwe flour, coconut milk, sugar, and sago pearls. Regardless of its origins, Kue Cente Manis has become part of Betawi culture.
+""",
+        "ingredients": """
+**Ingredients:**  
+- 50g hunkwe flour (1 pack)  
+- 1/2 tbsp all-purpose flour  
+- 90g granulated sugar  
+- 300ml coconut milk (from 1 small kara pack)  
+- A pinch of salt  
+- 50g dried sago pearls  
+- 2 glasses of water  
+"""
+    },
+    "kue_cubit": {
+        "history": """
+**Kue Cubit - Historical Insight**  
+Kue Cubit actually originates from the Netherlands! The presence during Dutch colonialism created this cultural acculturation. Many cakes we know today are part of Dutch heritage, such as kastengels, kroket, and lapis legit.
+
+The Tulip country didn't just colonize Indonesia but left many culinary legacies, including Kue Cubit. In Dutch, it's called "poffertjes," which became known as Kue Cubit in Indonesia.
+""",
+        "ingredients": """
+**Ingredients:**  
+- 130g all-purpose flour  
+- 100g granulated sugar  
+- 100g butter, melted  
+- 3 eggs  
+- 150ml white milk  
+- 1/2 tsp baking powder  
+- 1/4 tsp baking soda  
+- 1/2 tsp vanilla powder  
+- 1/4 tsp salt  
+"""
+    },
+    "kue_gemblong": {
+        "history": """
+**Kue Gemblong - Historical Insight**  
+Gemblong is made from glutinous rice flour mixed with grated coconut. The outside is coated with liquid palm sugar that crystallizes when dried. This traditional Javanese snack is commonly found along Puncak road, West Java, and often brought as souvenirs.
+
+In Central Java, East Java, and Yogyakarta, people know gemblong by the name "kue getas." Some also call it "kemplang," though these traditional snacks actually have differences despite similar taste and texture.
+""",
+        "ingredients": """
+**Ingredients:**  
+- 150g glutinous rice flour  
+- 2 tbsp rice flour  
+- 150ml warm coconut milk  
+- 100g grated coconut  
+- 1/2 tsp salt  
+
+**Palm Sugar Coating:**
+- 100g shredded palm sugar  
+- 100g palm sugar  
+- 100ml water  
+- 1 pandan leaf  
+"""
+    },
+    "kue_lumpur": {
+        "history": """
+**Kue Lumpur - Historical Insight**  
+Kue Lumpur is a traditional Indonesian snack made from potatoes, flour, sugar, and eggs, usually decorated with raisins and grated coconut. Many historians state that Kue Lumpur was introduced by the Portuguese during their colonization of Indonesia from 1511 to 1595.
+
+Kue Lumpur was inspired by a Portuguese specialty called "pasteis de nata," usually made from custard (a mixture of milk and egg yolks). When in Indonesia, the Portuguese adapted the recipe using ingredients commonly found in Indonesia, such as potatoes or flour. Kue Lumpur was first made in the Betawi region.
+""",
+        "ingredients": """
+**Ingredients:**  
+- 500g potatoes (after steaming)  
+- 500ml coconut milk  
+- 250g all-purpose flour  
+- 250g granulated sugar  
+- 2 whole eggs  
+- 1 egg yolk  
+- 100g butter, melted  
+- 1/2 tsp salt  
+- 1/2 tsp vanilla  
+- Raisins for topping  
+"""
+    },
+    "kue_pancong": {
+        "history": """
+**Kue Pancong - Historical Insight**  
+Kue Pancong has a unique and interesting name. Literally, "pancong" comes from the word "cong," which is a Javanese term for "cup" or "small plate." This cake is known for its cup-like shape with a hole in the middle.
+
+Although it's difficult to determine the exact origins of Kue Pancong, its history is believed to date back to the Dutch colonial era in Indonesia. It's said that this cake first appeared in the Batavia area (now Jakarta) in the 17th century, often sold by street vendors as a favorite snack for local people.
+""",
+        "ingredients": """
+**Ingredients:**  
+- 150g rice flour  
+- 1 tbsp tapioca flour  
+- 200g young grated coconut  
+- 1 tsp salt  
+- Granulated sugar to taste  
+- 450ml water (or coconut milk)  
+"""
+    },
+    "kue_rangi": {
+        "history": """
+**Kue Rangi - Historical Insight**  
+Kue Rangi or Sagu Rangi is a traditional Betawi cake from Jakarta, made from a mixture of cornstarch (often called sago flour) and grated coconut, baked in special molds over a small stove and covered until evenly cooked.
+
+Although specific historical information is limited, this cake has become part of Betawi's rich culinary heritage. Often described as Indonesia's signature coconut waffle, Kue Rangi has a crispy exterior and soft interior with a distinctive coconut flavor, served with palm sugar syrup on top.
+""",
+        "ingredients": """
+**Ingredients:**  
+- 100g grated coconut  
+- 100g tapioca flour  
+- 40ml coconut water  
+- 1/4 tsp salt  
+
+**Palm Sugar Sauce:**
+- 75g palm sugar  
+- 1/2 tbsp granulated sugar  
+- 1/4 tsp salt  
+- 125ml water  
+- 1 pandan leaf, knotted  
+- 1.5 tbsp tapioca flour + 2 tbsp water  
+"""
+    },
+    "ongol_ongol": {
+        "history": """
+**Ongol-Ongol - Historical Insight**  
+Ongol is one of the traditional cuisines of the Betawi people. "Ongol" is an archaic Betawi word meaning chewy. It can usually be found in traditional cultural events such as Betawi weddings or certain ceremonies.
+
+According to history, based on stories from elders, the word "ongol" means chewy, flexible, and soft. Some assume that the creation of ongol originated from a type of cake often eaten by soldiers from Mongolia. Since people didn't know the name of this cake, they spontaneously called it "Ongol-ongol."
+""",
+        "ingredients": """
+**Ingredients:**  
+- 350g palm sugar  
+- 1 1/2 tbsp granulated sugar  
+- 1 pandan leaf  
+- 400ml water  
+- 375g tapioca flour  
+- 1/2 tsp salt  
+- 500ml coconut milk  
+- 2 tbsp cooking oil  
+
+**Coating:**
+- 150g young grated coconut  
+- 1/4 tsp salt  
+- 1 pandan leaf  
+"""
+    },
+    "putu_mayang": {
+        "history": """
+**Putu Mayang - Historical Insight**  
+Putu Mayang is a traditional Betawi snack with deep cultural connections. Many historical references link its existence to Betawi folk tales, including the story of Jampang Mayangsari. The word "Mayang" is associated with the beautiful character "Mayang Sari."
+
+In folklore, "Mayang" is described as something wavy, coiled, and beautiful, like the wavy and coiled shape of Putu Mayang resembling a scarf fluttering in the wind. Based on oral sources passed down through generations, Putu Mayang is closely related to Kue Mayam from South India, likely due to Batavia's position as an important port and trading center with multinational social interactions.
+""",
+        "ingredients": """
+**Ingredients:**  
+- 250g rice flour  
+- 125g tapioca flour  
+- 750ml coconut milk (for dough and kinca)  
+- 3 pandan leaves  
+
+**Kinca (Palm Sugar Sauce):**
+- 75g palm sugar  
+- 1 tbsp half-mature grated coconut  
+- Pinch of salt  
+- 2 tsp cornstarch + 3 tbsp water  
 """
     }
 }
@@ -314,6 +481,47 @@ if uploaded_file and 'predicted_label' in locals():
             )
     else:
         st.info("📝 Historical information and ingredients for this snack will be added soon!")
+
+# Footer with app statistics
+if uploaded_file:
+    st.markdown("---")
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.markdown(
+            """
+            <div class="stats-card">
+                <div class="feature-icon">🎯</div>
+                <h4>Accuracy</h4>
+                <p>High precision classification using ResNet50</p>
+            </div>
+            """, 
+            unsafe_allow_html=True
+        )
+    
+    with col2:
+        st.markdown(
+            """
+            <div class="stats-card">
+                <div class="feature-icon">⚡</div>
+                <h4>Fast Processing</h4>
+                <p>Quick results in seconds</p>
+            </div>
+            """, 
+            unsafe_allow_html=True
+        )
+    
+    with col3:
+        st.markdown(
+            """
+            <div class="stats-card">
+                <div class="feature-icon">🇮🇩</div>
+                <h4>Indonesian Heritage</h4>
+                <p>Preserving traditional snack knowledge</p>
+            </div>
+            """, 
+            unsafe_allow_html=True
+        )
 
 # Welcome message for first-time users
 if not uploaded_file:
