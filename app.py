@@ -396,11 +396,23 @@ In folklore, "Mayang" is described as something wavy, coiled, and beautiful, lik
   - 3 pandan leaves  
   - 250ml water  
   """
+},"wajik": {
+  "history": """ 
+  **Wajik – Historical Insight**  
+  Wajik is a traditional Indonesian sticky rice cake and a treasured culinary heritage passed down through generations. Deeply embedded in cultural and spiritual practices, wajik symbolizes unity, harmony, and long-lasting bonds.  
+  Often served as part of traditional ceremonies such as weddings and thanksgiving rituals (selametan), wajik carries symbolic meanings. Its chewy and sticky texture represents the hope for a long-lasting and harmonious marriage, where the couple stays close and united—just as the sticky rice grains hold together.  
+  In community gatherings, wajik is seen as a sign of mutual respect and togetherness, reinforcing social cohesion and solidarity. For many, preserving the tradition of making wajik means preserving the values of connection, warmth, and cultural pride.""",
+  "ingredients": """ 
+  **Ingredients:**  
+  - 500g white glutinous rice (e.g., Siam variety)  
+  - 300ml thick coconut milk  
+  - 200ml boiling water  
+  - 300g dark palm sugar  
+  - 2 tbsp granulated sugar (adjust to taste)  
+  - 1/2 tsp salt  
+  - 3 pandan leaves, knotted  
+  """
 }
-
-
-
-
 
 }
 
