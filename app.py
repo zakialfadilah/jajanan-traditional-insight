@@ -482,47 +482,6 @@ if uploaded_file and 'predicted_label' in locals():
     else:
         st.info("📝 Historical information and ingredients for this snack will be added soon!")
 
-# Footer with app statistics
-if uploaded_file:
-    st.markdown("---")
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        st.markdown(
-            """
-            <div class="stats-card">
-                <div class="feature-icon">🎯</div>
-                <h4>Accuracy</h4>
-                <p>High precision classification using ResNet50</p>
-            </div>
-            """, 
-            unsafe_allow_html=True
-        )
-    
-    with col2:
-        st.markdown(
-            """
-            <div class="stats-card">
-                <div class="feature-icon">⚡</div>
-                <h4>Fast Processing</h4>
-                <p>Quick results in seconds</p>
-            </div>
-            """, 
-            unsafe_allow_html=True
-        )
-    
-    with col3:
-        st.markdown(
-            """
-            <div class="stats-card">
-                <div class="feature-icon">🇮🇩</div>
-                <h4>Indonesian Heritage</h4>
-                <p>Preserving traditional snack knowledge</p>
-            </div>
-            """, 
-            unsafe_allow_html=True
-        )
-
 # Welcome message for first-time users
 if not uploaded_file:
     st.markdown("---")
