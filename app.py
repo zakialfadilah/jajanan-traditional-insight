@@ -320,23 +320,27 @@ In folklore, "Mayang" is described as something wavy, coiled, and beautiful, lik
 - 2 tsp cornstarch + 3 tbsp water  
 """
     }, "uli_bakar": {
-  "history": """ **Ketan Bakar (Ketan Uli) - Historical Insight**  
+  "history": """ 
+  **Ketan Bakar (Ketan Uli) - Historical Insight**  
   Ketan Bakar, also known as Ketan Uli, is a traditional Betawi delicacy that continues to thrive in places like Bekasi. While today it is often found with a variety of flavors and toppings—beyond the classic grated coconut and spiced coconut flakes (serundeng)—its roots lie in deep cultural and religious traditions.  
   Historically, Ketan Uli has been associated with togetherness, kinship, and religious gatherings in Betawi society. The sticky texture of glutinous rice symbolizes unity and closeness—just as the grains stick together, so do family members and neighbors during communal events.  
   Betawi historians also note the existence of similar glutinous rice-based dishes like *wajik* in earlier times, reinforcing ketan’s long-standing presence in traditional ceremonies and its symbolic meaning of harmony and warmth in social bonds.""",
-  "ingredients": """ **Ingredients:**  
+  "ingredients": """ 
+  **Ingredients:**  
   - 400g glutinous rice (ketan)  
   - 300ml coconut milk  
   - 200g grated coconut  
   - 1/2 tablespoon salt  
   """
 }, "kue_cucur": {
-  "history": """ **Kue Cucur - Historical Insight**  
+  "history": """ 
+  **Kue Cucur - Historical Insight**  
   Kue Cucur is a beloved traditional Indonesian snack known for its round shape, crispy edges, soft center, and sweet flavor derived from palm sugar. It is especially popular in Java, Betawi, and Sumatra regions.  
   The word *cucur* is believed to come from the Javanese language, meaning "to pour" or "to spill," referring to how the batter is poured into hot oil during cooking. This method creates a distinctive texture: crunchy edges and a denser middle.  
   Historically, Kue Cucur is said to have originated in Java and has since become an integral part of traditional events across the archipelago. It is often served at religious celebrations, weddings, and family gatherings, symbolizing hospitality and cultural richness.  
   Despite its simple ingredients—rice flour, palm sugar, and water—Kue Cucur reflects Indonesia’s diverse culinary traditions and communal values.""",
-  "ingredients": """ **Ingredients:**  
+  "ingredients": """ 
+  **Ingredients:**  
   - 125g rice flour  
   - 100g medium protein wheat flour (e.g., Segitiga Biru)  
   - 130g palm sugar  
@@ -346,12 +350,14 @@ In folklore, "Mayang" is described as something wavy, coiled, and beautiful, lik
   - 1/4 tsp salt  
   """
     }, "kue_ape": {
-  "history": """ **Kue Ape – Historical Insight**  
+  "history": """ 
+  **Kue Ape – Historical Insight**  
   Kue Ape, also known as Serabi Jakarta, is a beloved traditional snack with a humorous and culturally rich background. In certain regions, it is colloquially referred to as “kue tete” (breast cake) due to its distinctive shape—soft and domed in the center with a crispy, thin edge.  
   The origins of Kue Ape can be traced back to the Dutch colonial era in Indonesia, where local culinary traditions began to merge with European influences. Its shape and texture are believed to be inspired by European-style pancakes, adapted with local ingredients and flavors.  
   The name “Ape” comes from the Betawi word for “what.” When the cake was first introduced, curious passersby would ask, “Ini kue ape?” (“What cake is this?”), to which the response would be, “Yes, it’s Kue Ape.” The playful name stuck and became part of the snack’s charm.  
   Over time, Kue Ape evolved to include local ingredients like pandan or suji leaves for its signature green color, and modern toppings such as cheese, chocolate, or sweetened condensed milk were added to suit contemporary tastes.""",
-  "ingredients": """ **Ingredients:**  
+  "ingredients": """ 
+  **Ingredients:**  
   - 100g rice flour  
   - 40g all-purpose wheat flour  
   - 70g granulated sugar (adjust to taste)  
@@ -361,11 +367,13 @@ In folklore, "Mayang" is described as something wavy, coiled, and beautiful, lik
   - 1/4 tsp pandan paste  
   """
 }, "selendang_mayang": {
-  "history": """ **Selendang Mayang – Historical Insight**  
+  "history": """ 
+  **Selendang Mayang – Historical Insight**  
   Selendang Mayang is a traditional Betawi dessert drink that carries a poetic backstory rooted in Betawi folklore. The name “Selendang Mayang” comes from the tale of Si Jampang—a local Betawi hero known as a noble-hearted bandit who shared his loot with the poor.  
   According to the legend, Si Jampang fell deeply in love with a woman named Mayangsari, whose beauty was described in striking detail: wavy, flowing hair, sharp nose, and calming eyes. Her elegance inspired the naming of this vibrant and refreshing dessert. The term “selendang” (scarf) paired with “Mayang” (from Mayangsari) represents both visual beauty and sensory delight, as the dessert captivates not only the taste buds but also the eyes with its colorful layers.  
   To this day, Selendang Mayang remains a popular Betawi dessert, enjoyed for its balance of sweetness, creaminess, and its refreshing nature, especially during warm weather or festive occasions.""",
-  "ingredients": """ **Ingredients:**  
+  "ingredients": """ 
+  **Ingredients:**  
 
   **Selendang Mayang Base:**  
   - 100g tapioca flour  
