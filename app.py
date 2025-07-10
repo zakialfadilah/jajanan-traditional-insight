@@ -419,22 +419,22 @@ In folklore, "Mayang" is described as something wavy, coiled, and beautiful, lik
 @st.cache_resource
 def download_and_load_model():
     if not os.path.exists(MODEL_PATH):
-        with st.spinner("🔄 Downloading AI model... Please wait"):
+        with st.spinner("Downloading AI model... Please wait"):
             try:
                 response = requests.get(MODEL_URL)
                 response.raise_for_status()
                 with open(MODEL_PATH, 'wb') as f:
                     f.write(response.content)
-                st.success("✅ Model downloaded successfully!")
+                st.success("Model downloaded successfully!")
             except Exception as e:
-                st.error(f"❌ Error downloading model: {str(e)}")
+                st.error(f"Error downloading model: {str(e)}")
                 return None
     
     try:
         model = load_model(MODEL_PATH)
         return model
     except Exception as e:
-        st.error(f"❌ Error loading model: {str(e)}")
+        st.error(f"Error loading model: {str(e)}")
         return None
 
 def predict_image(model, image):
@@ -446,7 +446,7 @@ def predict_image(model, image):
         prediction = model.predict(image_array)[0]
         return prediction
     except Exception as e:
-        st.error(f"❌ Error during prediction: {str(e)}")
+        st.error(f"Error during prediction: {str(e)}")
         return None
 
 def create_prediction_chart(prediction, class_names):
@@ -477,7 +477,7 @@ st.markdown('<p class="subtitle">🤖 AI-Powered Recognition of Traditional Indo
 
 # Sidebar for app info
 with st.sidebar:
-    st.markdown("## 📱 About This App")
+    st.markdown("## About This App")
     st.markdown("""
     This AI application uses deep learning to classify traditional Indonesian snacks from images.
     
@@ -488,12 +488,12 @@ with st.sidebar:
     - 🍳 Includes recipe ingredients
     """)
     
-    st.markdown("## 🎯 Supported Snacks")
+    st.markdown("## Supported Snacks")
     for idx, snack in enumerate(CLASS_NAMES, 1):
         st.markdown(f"{idx}. {snack.replace('_', ' ').title()}")
     
     st.markdown("---")
-    st.markdown("## 💡 Tips for Best Results")
+    st.markdown("## Tips for Best Results")
     st.markdown("""
     - Use clear, well-lit images
     - Center the snack in the frame
@@ -506,7 +506,7 @@ col1, col2 = st.columns([1, 1])
 
 with col1:
     st.markdown('<div class="upload-section">', unsafe_allow_html=True)
-    st.markdown("### 📸 Upload Your Snack Image")
+    st.markdown("### Upload Your Snack Image")
     uploaded_file = st.file_uploader(
         "Choose an image file", 
         type=["jpg", "jpeg", "png"],
@@ -516,11 +516,11 @@ with col1:
     
     if uploaded_file:
         image = Image.open(uploaded_file).convert("RGB")
-        st.image(image, caption="📷 Uploaded Image", use_container_width=True)
+        st.image(image, caption="Uploaded Image", use_container_width=True)
 
 with col2:
     if uploaded_file:
-        with st.spinner("🔍 Analyzing your image..."):
+        with st.spinner("Analyzing your image..."):
             model = download_and_load_model()
             
             if model is not None:
@@ -558,7 +558,7 @@ if uploaded_file and 'predicted_label' in locals():
             st.markdown(
                 f"""
                 <div class="info-card">
-                    <h3>📚 Historical Background</h3>
+                    <h3>Historical Background</h3>
                     {EXTRA_INFO[predicted_label]["history"]}
                 """, 
                 unsafe_allow_html=True
@@ -568,41 +568,41 @@ if uploaded_file and 'predicted_label' in locals():
             st.markdown(
                 f"""
                 <div class="ingredients-card">
-                    <h3>🍳 Recipe Ingredients</h3>
+                    <h3>Recipe Ingredients</h3>
                     {EXTRA_INFO[predicted_label]["ingredients"]}
                 """, 
                 unsafe_allow_html=True
             )
     else:
-        st.info("📝 Historical information and ingredients for this snack will be added soon!")
+        st.info("Historical information and ingredients for this snack will be added soon!")
 
 # Welcome message for first-time users
 if not uploaded_file:
     st.markdown("---")
-    st.markdown("## 🚀 Get Started")
+    st.markdown("## Get Started")
     
     col1, col2, col3 = st.columns(3)
     
     with col1:
         st.markdown("""
-        ### 1️⃣ Upload Image
+        ### Upload Image
         Click the upload button and select a clear image of a traditional Indonesian snack.
         """)
     
     with col2:
         st.markdown("""
-        ### 2️⃣ AI Analysis
+        ### AI Analysis
         Our deep learning model will analyze your image and identify the snack type.
         """)
     
     with col3:
         st.markdown("""
-        ### 3️⃣ Learn More
+        ### Learn More
         Discover the history and ingredients of your identified snack!
         """)
     
     st.markdown("""
     ---
     **Ready to explore Indonesian traditional snacks?** 
-    Upload an image above to begin your culinary journey! 🌟
+    Upload an image above to begin your culinary journey! 
     """)
