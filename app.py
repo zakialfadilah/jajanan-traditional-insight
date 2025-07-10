@@ -482,10 +482,10 @@ with st.sidebar:
     This AI application uses deep learning to classify traditional Indonesian snacks from images.
     
     **Features:**
-    - 🎯 Recognizes 14 different traditional snacks
-    - 📊 Shows confidence scores
-    - 📚 Provides historical insights
-    - 🍳 Includes recipe ingredients
+    - Recognizes 14 different traditional snacks
+    - Shows confidence scores
+    - Provides historical insights
+    - Includes recipe ingredients
     """)
     
     st.markdown("## Supported Snacks")
